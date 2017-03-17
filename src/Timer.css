@@ -1,7 +1,6 @@
 .timer {
   color: blue;
-  font-size: 25em;
+  font-size: 8em;
   font-family: monospace;
-  flex-grow: 1;
   text-align: center;
 }
