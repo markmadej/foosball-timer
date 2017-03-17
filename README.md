@@ -11,6 +11,10 @@ To use the app, follow these steps:
 
 That's it!  Let's get f-ing good at foosball by abusing the time limits on each rod to the best of our ability!
 
+# Caveats
+
+The UI kinda sux right now, open to ideas...
+
 # create-react-app boilerplate BS
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
