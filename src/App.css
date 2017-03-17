@@ -1,0 +1,7 @@
+.wrapper {
+  display: flex;
+}
+
+RodTimeClock {
+  flex-grow: 1;
+}
