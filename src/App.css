@@ -5,3 +5,9 @@
 RodTimeClock {
   flex-grow: 1;
 }
+
+@media only screen and (orientation: portrait) {
+  .wrapper {
+    flex-direction: column;
+  }
+}

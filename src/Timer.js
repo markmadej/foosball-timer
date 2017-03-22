@@ -23,7 +23,11 @@ class Timer extends Component {
   incrementTimer() {
     let nextSecond = this.state.currSecond;
     console.log("in incrementTimer, curSecond=" + this.state.currSecond + " maxSeconds=" + this.props.maxSeconds);
-    nextSecond == this.props.maxSeconds ? nextSecond = 1 : nextSecond = nextSecond + 1;
+      if (nextSecond >= this.props.maxSeconds) {
+          nextSecond = 1;
+      } else {
+          nextSecond += 1;
+      }
     console.log("new second=" + nextSecond);
 
     this.setState({currSecond: nextSecond});

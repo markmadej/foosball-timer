@@ -6,7 +6,28 @@
 
 .rtcTitle {
   text-align: center;
-  font-size: 3em;
+  font-size: 50px;
   color: black;
   font-family: monospace;
+}
+
+@media only screen and (orientation: portrait) {
+  .rtcShell {
+    flex-direction: column;
+  }
+
+  .rtcShell {
+    width: 100%;
+  }
+
+  .rtcTitle {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* iPad, portrait */
+  .rtcTitle {
+    font-size: 80px;
+  }
 }
