@@ -2,6 +2,10 @@
 
 This app displays dual timers, allowing a foosball player to quickly and easily determine how much time they have left on each rod.
 
+# Live app
+
+The app is currently deployed here : http://foosball-timer.herokuapp.com/
+
 # Usage
 
 To use the app, follow these steps:
